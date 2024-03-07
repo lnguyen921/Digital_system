@@ -1,6 +1,6 @@
 Exercise: Simulate a basic AND gate operation
 
-Software: Vivado by Xillinx
+Software: Vivado by Xilinx 2023.1
 
 Topics involved:
   - AND operation
