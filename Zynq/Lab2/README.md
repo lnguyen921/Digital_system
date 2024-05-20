@@ -48,4 +48,21 @@ Instructions for Lab 2:
          - Directory for board files: <Xilinx installation directory>\Vivado\<version>\data\boards\board_files
   3. Create and configure project on VIVADO.
   4. Create required module to blink LEDS.
+  5. Modify LED controllers.
+  6. Create Block Design.
+  7. Synthesis Time.
+  8. Connect module inputs/outputs with FPGA pins.
+  9. Generate Bitstream and program the FPGA.
+  10. Program device and test visually.
+
+Challenge:
+
+    - I want you do is change the color of the RGB pin after every clock tick. Now 125MHz is very fast. So first you need to implement a Clock Divider Module to slow down the clock that you can visualize with you eye. Try somewhere near 1–10Hz.
+
+   Then I want you to write a module similar to what we wrote, that will take the slow clock from the Clock Divider and the button SW0 as input.
+
+    - If SW0 is ON (Upper position), Change the color of RGB after every clock tick.
+    - If SW1 is ON (Upper Position), Set the RGB to default value (reset value)
+HINT: Use RTL diagram block.
+
   
