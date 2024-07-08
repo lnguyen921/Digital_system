@@ -12,7 +12,8 @@ Terms:
                - Faster response to input changes due to output updates.
                - more complexes due to state-input cases.
   2. Moore FSM - state machine where the output depends only on the present state.
-  3. Pseudo Random Binary Sequence (PRBS) - this method is to generate random pattern.  
+  3. Pseudo Random Binary Sequence (PRBS) - this method is to generate random pattern.
+  4. Linear Feedback Shift Register (LFSR) -  by using XOR gates. LFSR has inputs that are driven by XOR of some bits of the overall shift register value. This is use as a quick check against transmission errors.
 
 Instructions:
   1. Create finite state machine with total of 5 states.
@@ -36,3 +37,4 @@ Instructions:
 
 Other references:
   1. https://www.geeksforgeeks.org/mealy-and-moore-machines-in-toc/
+  2. https://en.wikipedia.org/wiki/Linear-feedback_shift_register
